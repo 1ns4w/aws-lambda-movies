@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
     const headers = {
         'Content-Type': 'application/json',
         "Access-Control-Allow-Headers" : "Content-Type",
-        "Access-Control-Allow-Origin": "http://movies-app-yl.s3-website-us-east-1.amazonaws.com",
+        "Access-Control-Allow-Origin": "http://aws-lambda-frontend.s3-website-us-east-1.amazonaws.com/",
         "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
     };
 

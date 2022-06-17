@@ -12,7 +12,7 @@ app.appendChild(logob);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://d792v3d3b1.execute-api.us-east-2.amazonaws.com/v1/Movies', true);
+request.open('GET', 'https://dldcedaftl.execute-api.us-east-1.amazonaws.com/default/AWSMovies', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
